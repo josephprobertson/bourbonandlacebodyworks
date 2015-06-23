@@ -1,0 +1,252 @@
+/******************************
+GENERAL
+*******************************/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  background-color: black;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#wrapper {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+  color: white;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  font-size: 0.75em;
+}
+
+h4 {
+  color: white;
+}
+
+h5 {
+  font-family: "Open Sans", sans-serif;
+  color: #666;
+  font-size: 1.75em;
+  color:black;
+}
+
+/******************************
+FOOTER
+*******************************/
+
+#footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+#social-icons li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+
+/******************************
+NAVIGATION
+*******************************/
+#nav {
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+#header li {
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 16pt;
+	color: #FFF;
+	max-width: 200px;
+	padding: 0 2em 0 2em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/******************************
+PAGE: INDEX
+*******************************/
+
+.logo-header {
+  text-align: center;
+  float: middle;
+  max-width: 90%;
+  padding-left: 5%;
+  padding-right: auto;
+  padding-top: 18%;
+}
+
+#header-one {
+  font-size: 46px;
+  text-align: center;
+  font-family: "Oswald";
+  font-weight: 300;
+  color: white;
+}
+
+#header-two {
+  font-size: 22px;
+  text-align: center;
+  font-family: "Oswald";
+  font-weight: 300;
+  color: white;
+}
+
+span.line {
+  display: inline-block;
+}
+
+.button {
+  font-weight: normal;
+  color: white;
+  min-width: 120px;
+  padding: 15px;
+  margin: 15px 20px;
+  border: 2px solid #cdcdcd;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 2px solid;
+  outline-color: rgba(255, 255, 255, .5);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+  text-decoration: none;
+} 
+
+.button:hover {
+  border: 2px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+  text-decoration: none;
+}
+
+
+/******************************
+PAGE: SOAPS
+*******************************/
+
+#latest_products {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#latest_products li {
+  float: left;
+  width: 95%;
+}
+#latest_products li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+/******************************
+PAGE: SOAP
+*******************************/
+
+#soap-details {
+  max-width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/******************************
+PAGE: PRODUCTS
+*******************************/
+
+#products-button {
+  float: middle;
+  color: white;
+  background-color: #790528;
+}
+
+/******************************
+PAGE: CONTACT
+*******************************/
+
+form {
+  width: 275px; 
+  margin: 34px auto;
+}
+form tr {
+    border: 1px solid #CCC;
+    background: #f4f3f2;
+}
+form table {
+  width: 275px; 
+  margin-bottom: 16px;
+}
+form th {
+    width: 35px;
+    border-right: 1px solid #CCC;
+    vertical-align: middle;
+    padding: 8px;
+}
+form td {
+    padding: 5px 5px;
+}
+form td select,
+form td input,
+form td textarea {
+    width: 100%;
+}
+
+form input[type="submit"] {
+    width: 275px;
+    text-align: center;
+    border: 1px solid #612101;
+    background: #813712;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;    
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+}
+
+/******************************
+PAGE: TEST
+*******************************/
+
+  #welcome_image {
+    float: left;
+    width: 90%;
+    margin: 5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+  }
+
+  #welcome_image img {
+    float: left;
+    width: 90%;
+    margin:5%;
+  }

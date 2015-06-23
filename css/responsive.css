@@ -1,0 +1,238 @@
+@media screen and (min-width: 480px) {
+
+/******************************
+GENERAL
+*******************************/
+
+  #currentPage a {
+    text-decoration: underline !important;
+  }
+
+  body {
+    background-color: #E3D7D1;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  a.selected {
+    color: #790528;
+  }
+
+  #wrapper {
+    background-color: #20B1C1;
+  }
+
+  #header li {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75em;
+    color: black;
+    max-width: 200px;
+    padding: 0 2em 0 2em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+  h1, h2, h3, h4 {
+    color: black;
+}
+
+  h1 {
+    background-color: #790528;
+  }
+
+
+/******************************
+PAGE: SOAPS
+*******************************/
+
+  #latest_products {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  #latest_products li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+
+  }
+  #latest_products li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+/******************************
+PAGE: CONTACT
+*******************************/
+
+  form {
+    width: 375px; 
+    margin: 34px auto;
+  }
+  form tr {
+    border: 1px solid #CCC;
+    background: #f4f3f2;
+  }
+  form table {
+    width: 375px; 
+    margin-bottom: 16px;
+  }
+  form th {
+    width: 85px;
+    border-right: 1px solid #CCC;
+    vertical-align: middle;
+    padding: 8px;
+  }
+  form td {
+    padding: 15px 15px;
+  }
+  form td select,
+  form td input,
+  form td textarea {
+    width: 100%;
+  }
+
+  form input[type="submit"] {
+    width: 375px;
+    text-align: center;
+    border: 1px solid #612101;
+    background: #790528;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;    
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+  }
+
+
+
+
+@media screen and (min-width: 660px) {
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /******************************
+  PAGE: INDEX
+  *******************************/
+
+  .logo-header {
+    text-align: center;
+    float: middle;
+    height: 5em;
+    max-width: 80%;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 15%;
+  }
+
+  #header-one {
+    font-size: 80px;
+    text-align: center;
+    font-family: "Oswald";
+    font-weight: 300;
+    color: white;
+  }
+
+  #header-two {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Oswald";
+    font-weight: 200;
+    color: white;
+  }
+
+  .button {
+    font-weight: normal;
+    color: white;
+    min-width: 120px;
+    padding: 15px;
+    margin: 15px 20px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 2px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+    text-decoration: none;
+  } 
+
+  .button:hover {
+    border: 2px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #FFF; 
+    text-decoration: none;
+  }
+ 
+  /******************************
+  PAGE: TEST
+  *******************************/
+  
+  #welcome_image {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 50%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+  }
+
+  /******************************
+  PAGE: SOAPS
+  *******************************/
+
+  #latest_products {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  #latest_products li {
+    float: left;
+    width: 28.3333%;
+    height: 38%;
+    margin: 2.5%;
+  }
+  #latest_products li a p {
+    margin: 0;
+    padding: 0;
+    font-size: 0.75em;
+  }
+
+  #latest_products img {
+    vertical-align: text-bottom;
+  }
+
+  }
+    
+  /******************************
+  PAGE: SOAP
+  *******************************/
+  
+  #soap-picture {
+    float: left;
+    padding: 0 5% 5% 5%;
+    max-width: 40%;
+  }
+
+  #soap-details {
+    float: right;
+    padding: 0 5% 5% 5%;
+    max-width: 40%;
+  }  
+
+  
